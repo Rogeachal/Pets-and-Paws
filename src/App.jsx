@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+import React from 'react'
+import Herosec from './Components/Herosec'
+import About2 from './Components/About2'
+import About3 from './Components/About3'
+import About4 from './Components/About4'
+
+
+function App() {
+  return (
+    <>
+    <Herosec/>
+    <About2/>
+    <About3/>
+    <About4/>
+      
+    </>
+  )
+}
+
+export default App
+=======
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Index from "./Components/Index.jsx";
@@ -34,3 +56,4 @@ function App() {
 }
 
 export default App;
+>>>>>>> c9d71c17332a43f98fdafdb5f9a233f6eae7bd29
